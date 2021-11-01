@@ -13,13 +13,18 @@ if (presupuesto >= 300) {
 
   if (pass === pass2) {
     mensaje2 = "Registro Correcto";
+    mensaje3 = "ingrese tarjeta de credito y el codigo de atras :)";
+    alert(mensaje2);
+    alert(mensaje3);
   } else {
     mensaje2 = "Contraseñas diferentes, reintente registro";
-  }
+    alert(mensaje2);
+    mensaje4 =
+      "Para reintentar registro, ingrese tarjeta de credito y el codigo de atras :)";
 
-  alert(mensaje2);
+    alert(mensaje4);
+  }
 } else {
   mensaje = "Regrese cuando tenga mas dolares, gracias";
+  alert(mensaje);
 }
-
-alert(mensaje);
