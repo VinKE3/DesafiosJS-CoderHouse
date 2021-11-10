@@ -1,5 +1,7 @@
 alert("Bienvenido a VinKE´s calculator");
-
+alert(
+  "Esta version gratuita solo le permite realizar calculos entre dos numeros y un maximo de 1000 veces"
+);
 alert(
   "ingrese 1: para sumar , 2: para restar , 3: para multiplicar, 4: para dividir"
 );
@@ -42,5 +44,9 @@ for (let i = 1; i < 1000; i++) {
       alert(`La divicion: ${a} / ${b} es igual a ${resultado}`);
     }
     divi();
+  } else {
+    alert(
+      "Reingrese tipo de calculo, ingrese 1: para sumar , 2: para restar , 3: para multiplicar, 4: para dividir "
+    );
   }
 }
